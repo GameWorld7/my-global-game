@@ -1,0 +1,14 @@
+my-global-game/
+├── client/                 # Frontend (React)
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       │   ├── ChatBox.jsx   # AI & User Real-time Chat with Media Icons
+│       │   └── GameBoard.jsx # Core Professional Game UI
+│       ├── App.jsx
+│       ├── index.css         # Tailwind Styling
+│       └── main.jsx
+├── server/                 # Backend (Node.js + AI + Sockets)
+│   ├── server.js           # Main Entry Point
+│   └── package.json
+└── package.json
